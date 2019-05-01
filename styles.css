@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+background: #424242;
+font-family: 'Roboto', sans-serif;
+}
+/* primer contenedor */
+.container{
+background: lightgrey;  
+color: #424242;
+width: 50%;
+max-width: 800px;
+height: 600px;
+}
+h1{
+text-align: center;
+color: aliceblue;
+line-height: 600px;
+background: #432672;
+}
+/* segundo contenedor */
+.second{
+background: lightgreen;  
+color: #424242;
+width: 50%;
+max-width: 800px;
+height: 600px; 
+text-align: center;
+}
+.imagen{
+width: 200px;
+margin: 200px 0;
+}
+/* tercer contenedor */
+
+.third{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background: lightblue;  
+color: #424242;
+width: 50%;
+max-width: 800px;
+height: 600px; 
+text-align: center;
+}
+p{
+background: #f2f2f2;
+color: #494949;
+width: 70%;
+}
+/* cuarto contenedor */
+.four{
+background: lightcoral;  
+color: #424242;
+width: 50%;
+max-width: 800px;
+height: 600px; 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.caja{
+color: #748ffc;
+height: 100px;
+}
+
+
+/* text-align:center centrar texto horizontalmente
+   margin:auto; centrar elementos bloque con ancho especifico
+   
+   line-height; centrar una linea de texto verticalmente
+   margin-top:; margin-bottom:; centrar verticalmente a partir del margin
+   flexbox - centrar horizontal o verticalmente cualquier elemento
+   position:; tambien sirve para posicionar
+    */
